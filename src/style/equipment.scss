@@ -1,0 +1,80 @@
+/**设备模块**/
+$icon-gray: #999;
+$line-gray: #e4e4e4;
+$blue: #0079f1;
+
+.equipment-contailer {
+    position: relative;
+    padding: 50px 0;
+    .el-form {
+        margin-bottom: 40px;
+    }
+}
+.equipment-content {
+    position: relative;
+    padding: 20px 90px 50px;
+}
+.form-row .el-form-item {
+    margin-right: 50px;
+    input {
+        width: 240px;
+    }
+    .w540 input {
+        width: 540px;
+    }
+}
+
+/**设备进度**/
+.schedule-title {
+    position: relative;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 850px;
+    overflow: hidden;
+    .title-block {
+        float: left;
+        text-align: center;
+        color: $icon-gray;
+        width: 80px;
+        p {
+            text-align: center;
+        }
+    }
+    .title-icon {
+        font-size: 20px;
+    }
+    .title-line {
+        float: left;
+        width: 160px;
+        height: 2px;
+        margin-top: 14px;
+        background-color: $line-gray;
+    }
+    .title-blue {
+        color: $blue;
+    }
+    .line-blue {
+        background-color: $blue;
+    }
+}
+
+/**按钮**/
+.btn-block {
+    position: relative;
+    text-align: center;
+    .btn1 {
+        margin: 20px;
+        padding: 10px 50px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .blue-o-btn {
+        border: 1px solid $blue;
+        color: $blue;
+    }
+    .blue-btn {
+        background-color: $blue;
+        color: #ffffff;
+        border: 1px solid $blue;
+    }
+}
