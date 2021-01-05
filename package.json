@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "ali-oss": "^5.2.0",
-        "axios": "^0.16.1",
+        "axios": "^0.21.1",
         "browser-md5-file": "^1.1.1",
         "echarts": "^3.5.0",
         "element-ui": "^2.9.1",
